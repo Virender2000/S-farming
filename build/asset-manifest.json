@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35e89fa8.css",
+    "main.js": "/static/js/main.2a8affd7.js",
+    "static/media/bg2.jpg": "/static/media/bg2.01b12d903bde7f8e8867.jpg",
+    "static/media/aboutus.jpg": "/static/media/aboutus.79c002710cae8a999cf7.jpg",
+    "static/media/gmail.png": "/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
+    "index.html": "/index.html",
+    "main.35e89fa8.css.map": "/static/css/main.35e89fa8.css.map",
+    "main.2a8affd7.js.map": "/static/js/main.2a8affd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e89fa8.css",
+    "static/js/main.2a8affd7.js"
+  ]
+}
