@@ -13,7 +13,7 @@ function SignIn() {
         auth.signInWithPopup(provider)
     }
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center',}} className="background">
+        <div style={{ display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center',}} className="background img-fluid">
           
             <button type="button" className="btn btn-primary btn-lg zoom" style={{ padding: '30px', fontSize: '20px', borderRadius: '3', fontWeight: '600'   }} onClick={signInWithGoogle}>Sign In With Google</button>
         </div>

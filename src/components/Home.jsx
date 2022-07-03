@@ -5,9 +5,9 @@ import Carousel from "react-bootstrap/Carousel";
 const Home = () => {
   return (
     <>
-      <div className="container" >
+      <div className="container">
         <div className="bd-example">
-          <div className="container-fluid">
+          <div className="container-fluid ">
             <Carousel>
               <Carousel.Item style={{ height: "500px" }}>
                 <img
@@ -74,7 +74,7 @@ const Home = () => {
             <div className="text-center mx-auto my-auto  ">
               <span className="txt1">Agriculture</span>
               <div className="txt2">Today we can!</div>
-              <div >
+              <div>
                 Agriculture is the world's largest industry. Intensive
                 agriculture as it has been practiced since the 1960s has very
                 high yields, but depletes the soil and pollutes the environment:
@@ -105,40 +105,52 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12 col-12 col-xxl-6">
-            <img
-                  src="https://images.unsplash.com/photo-1530464684439-723262c0d16e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGZhcm1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                  className="card-img-top zoom mx-auto my-auto img-fluid" 
-                  alt="..."
-                />
+              <img
+                src="https://images.unsplash.com/photo-1530464684439-723262c0d16e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGZhcm1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                className="card-img-top zoom mx-auto my-auto img-fluid"
+                alt="..."
+              />
             </div>
             <div className="col-lg-6 col-md-12 col-12 col-xxl-6">
-            <div className="text-center mx-auto my-auto">
-              <div className="txt1 mt-5">What is sustainable
-agriculture?</div>
-<div>
-  <p >Green agriculture is the application of the sustainable development principles to agriculture: ensuring the production of food, wood and fibers while respecting the ecological, economic and social limits that ensure the durability of this production. For instance, sustainable farming minimises the use of pesticides that can harm the health of farmers and consumers</p>
-<br />
-    <p style={{fontSize:'25px'}}>
-    Key principles are linked to sustainable agriculture:
-    </p>
-<ol style={{fontWeight:'bold',}}>
-<li>Develop efficient, self-sufficient and economical production systems that provide decent incomes</li>
-<li>Preserve and protect biodiversity and territories</li>
-<li>Optimize the use of natural resources</li>
-<li>Manage the quality of air, water and soil</li>
-<li>Increase energy efficiency in food production and distribution</li>
-</ol>
-
- 
-</div>
-</div>
+              <div className="text-center mx-auto my-auto">
+                <div className="txt1 mt-5">
+                  What is sustainable agriculture?
+                </div>
+                <div>
+                  <p>
+                    Green agriculture is the application of the sustainable
+                    development principles to agriculture: ensuring the
+                    production of food, wood and fibers while respecting the
+                    ecological, economic and social limits that ensure the
+                    durability of this production. For instance, sustainable
+                    farming minimises the use of pesticides that can harm the
+                    health of farmers and consumers
+                  </p>
+                  <br />
+                  <p style={{ fontSize: "25px" }}>
+                    Key principles are linked to sustainable agriculture:
+                  </p>
+                  <ol style={{ fontWeight: "bold" }}>
+                    <li>
+                      Develop efficient, self-sufficient and economical
+                      production systems that provide decent incomes
+                    </li>
+                    <li>Preserve and protect biodiversity and territories</li>
+                    <li>Optimize the use of natural resources</li>
+                    <li>Manage the quality of air, water and soil</li>
+                    <li>
+                      Increase energy efficiency in food production and
+                      distribution
+                    </li>
+                  </ol>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-
-      <section style={{marginBottom:"100px"}}>
+      <section style={{ marginBottom: "100px" }}>
         <div className="text-center mt-5">
           <h1 className="display-4 head">
             Methods to Improve Farming Productivity{" "}
@@ -151,7 +163,7 @@ agriculture?</div>
               <div className="card">
                 <img
                   src="https://images.unsplash.com/photo-1530836176759-510f58baebf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VlZHN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                  className="card-img-top zoom"
+                  className="card-img-top img-fluid zoom"
                   alt="..."
                 />
                 <div className="card-body">
@@ -170,14 +182,14 @@ agriculture?</div>
               <div className="card">
                 <img
                   src="https://images.unsplash.com/photo-1527847263472-aa5338d178b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGNyb3AlMjBwcm90ZWN0aW9ufGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                  className="card-img-top zoom"
+                  className="card-img-top img-fluid zoom"
                   alt="..."
                 />
                 <div className="card-body">
                   <center>
                     <a
                       href="https://eos.com/blog/crop-protection-methods-that-boost-farming-productivity/"
-                      class="btn btn-primary zoom"
+                      class="btn btn-primary  zoom"
                     >
                       Crop Protection Methods
                     </a>

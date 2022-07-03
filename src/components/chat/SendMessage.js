@@ -3,7 +3,7 @@ import { db, auth, storage } from "../../Firebase";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
-import { Input, Button } from "@material-ui/core";
+import { Input } from "@material-ui/core";
 import "../../index.css";
 import { v4 } from "uuid";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
@@ -26,7 +26,7 @@ function SendMessage({ scroll }) {
   }
 
   const [imageUpload, setImageUpload] = useState(null);
-  const imagesListRef = ref(storage, "images/");
+  // const imagesListRef = ref(storage, "images/");
   const imgupload = (e) => {
     e.preventDefault();
     if (imageUpload == null) return;
@@ -43,7 +43,7 @@ function SendMessage({ scroll }) {
             });
         });
       });
-    
+    scroll.current.scrollIntoView({behavior:"smooth"});
   };
 
   return (

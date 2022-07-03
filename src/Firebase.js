@@ -4,13 +4,12 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import { getStorage } from "firebase/storage";
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyAeTM9AKVMTeite8fB747Wh1Xp8JSQazPw",
-  authDomain: "chat-app-c84e8.firebaseapp.com",
-  projectId: "chat-app-c84e8",
-  storageBucket: "chat-app-c84e8.appspot.com",
-  messagingSenderId: "561110819017",
-  appId: "1:561110819017:web:9015cde7224f2044286d18",
-  measurementId: "G-CEYDE26GWX"
+  apiKey: "AIzaSyC-yhovpWJIGq_BfEfDnXybgssNieGYcfk",
+  authDomain: "smart-farming-126de.firebaseapp.com",
+  projectId: "smart-farming-126de",
+  storageBucket: "smart-farming-126de.appspot.com",
+  messagingSenderId: "581997588234",
+  appId: "1:581997588234:web:8ee5416ce013382cac94f3"
 })
 
 const db = firebaseApp.firestore()

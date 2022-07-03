@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.35e89fa8.css",
-    "main.js": "/static/js/main.2a8affd7.js",
-    "static/media/bg2.jpg": "/static/media/bg2.01b12d903bde7f8e8867.jpg",
-    "static/media/aboutus.jpg": "/static/media/aboutus.79c002710cae8a999cf7.jpg",
-    "static/media/gmail.png": "/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
-    "index.html": "/index.html",
-    "main.35e89fa8.css.map": "/static/css/main.35e89fa8.css.map",
-    "main.2a8affd7.js.map": "/static/js/main.2a8affd7.js.map"
+    "main.css": "/Smart-farming/static/css/main.8368db7f.css",
+    "main.js": "/Smart-farming/static/js/main.db3db77f.js",
+    "static/media/farming2.jpg": "/Smart-farming/static/media/farming2.8e8e87b1678453366244.jpg",
+    "static/media/caro1.jpg": "/Smart-farming/static/media/caro1.b93bdb7f4d03f8c1301f.jpg",
+    "static/media/caro0.jpg": "/Smart-farming/static/media/caro0.2aab72b4f14b30595f2a.jpg",
+    "static/media/aboutus.jpg": "/Smart-farming/static/media/aboutus.79c002710cae8a999cf7.jpg",
+    "static/media/gmail.png": "/Smart-farming/static/media/gmail.23d2a9b0f4cc2cae2ed1.png",
+    "index.html": "/Smart-farming/index.html",
+    "main.8368db7f.css.map": "/Smart-farming/static/css/main.8368db7f.css.map",
+    "main.db3db77f.js.map": "/Smart-farming/static/js/main.db3db77f.js.map"
   },
   "entrypoints": [
-    "static/css/main.35e89fa8.css",
-    "static/js/main.2a8affd7.js"
+    "static/css/main.8368db7f.css",
+    "static/js/main.db3db77f.js"
   ]
 }

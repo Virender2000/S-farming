@@ -8,8 +8,8 @@ function News() {
   useEffect(()=>{
     const search=async()=>{
       const response = await fetch(
-        // "https://newsapi.org/v2/everything?q=farming&sortBy=relevancy&apiKey=8eddd7a6dff34d4ab3aec5a2ae49731d"
-        "https://newsapi.org/v2/everything?q=farming&from=2022-05-28&sortBy=relevancy&apiKey=ddcb39105bea496680da542f2a57ac7a"
+        // "https://newsapi.org/v2/everything?q=farming&from=2022-05-29&sortBy=relevancyAt&apiKey=ddcb39105bea496680da542f2a57ac7a"
+        "https://newsapi.org/v2/everything?q=farming&sortBy=relevancyAt&apiKey=d55a6f3e4b7b4c1385615c98bf657e49"
       );
       const result = await response.json();
       console.log(result);

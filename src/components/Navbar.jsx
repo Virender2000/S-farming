@@ -19,10 +19,10 @@ return(
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         
         <li className="nav-item">
-          <NavLink  className="nav-link active mobile zoom" aria-current="page" to="/">Home</NavLink>
+          <NavLink  className="nav-link active zoom" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink  className="nav-link active mobile zoom" aria-current="page" to="/news">News</NavLink>
+          <NavLink  className="nav-link active  zoom" aria-current="page" to="/news">News</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link active zoom" aria-current="page" to="/about">About</NavLink>

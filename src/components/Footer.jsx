@@ -10,7 +10,7 @@ const Footer=()=>{
     © 2022 Copyright:
     <span className="text-reset fw-bold" >Smart-Farming </span>
     <span>
-        <a href="https://instagram.com/vk_clicks._?igshid=YmMyMTA2M2Y=" className="mx-2"><img className="zoom" src={require("../photos/instagram.png")}  alt="instagram" /></a>
+        <a href="https://instagram.com/vk_clicks._?igshid=YmMyMTA2M2Y=" className="mx-2"><img className="zoom img-fluid" src={require("../photos/instagram.png")}  alt="instagram" /></a>
     </span>
     <span>
         <a href = "mailto: virendersinghkirola2000@gmail.com"><img src={require("../photos/gmail.png")} className="gmail zoom" alt="gmail"/></a>
